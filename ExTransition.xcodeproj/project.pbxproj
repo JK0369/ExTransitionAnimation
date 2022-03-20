@@ -13,6 +13,9 @@
 		C63F74D927E6CF2C000E14D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F74D727E6CF2C000E14D9 /* Main.storyboard */; };
 		C63F74DB27E6CF2D000E14D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63F74DA27E6CF2D000E14D9 /* Assets.xcassets */; };
 		C63F74DE27E6CF2D000E14D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F74DC27E6CF2D000E14D9 /* LaunchScreen.storyboard */; };
+		C63F74E627E6CF9A000E14D9 /* MyPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F74E527E6CF9A000E14D9 /* MyPresentTransition.swift */; };
+		C63F74E827E6DBC7000E14D9 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F74E727E6DBC7000E14D9 /* VC2.swift */; };
+		C6EF109B27E6E52800FC3747 /* MyDismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF109A27E6E52800FC3747 /* MyDismissTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C63F74DA27E6CF2D000E14D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C63F74DD27E6CF2D000E14D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C63F74DF27E6CF2D000E14D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63F74E527E6CF9A000E14D9 /* MyPresentTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPresentTransition.swift; sourceTree = "<group>"; };
+		C63F74E727E6DBC7000E14D9 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		C6EF109A27E6E52800FC3747 /* MyDismissTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDismissTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				C63F74D127E6CF2C000E14D9 /* AppDelegate.swift */,
 				C63F74D327E6CF2C000E14D9 /* SceneDelegate.swift */,
 				C63F74D527E6CF2C000E14D9 /* ViewController.swift */,
+				C63F74E727E6DBC7000E14D9 /* VC2.swift */,
+				C63F74E527E6CF9A000E14D9 /* MyPresentTransition.swift */,
+				C6EF109A27E6E52800FC3747 /* MyDismissTransition.swift */,
 				C63F74D727E6CF2C000E14D9 /* Main.storyboard */,
 				C63F74DA27E6CF2D000E14D9 /* Assets.xcassets */,
 				C63F74DC27E6CF2D000E14D9 /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 			files = (
 				C63F74D627E6CF2C000E14D9 /* ViewController.swift in Sources */,
 				C63F74D227E6CF2C000E14D9 /* AppDelegate.swift in Sources */,
+				C63F74E827E6DBC7000E14D9 /* VC2.swift in Sources */,
+				C6EF109B27E6E52800FC3747 /* MyDismissTransition.swift in Sources */,
+				C63F74E627E6CF9A000E14D9 /* MyPresentTransition.swift in Sources */,
 				C63F74D427E6CF2C000E14D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
